@@ -54,3 +54,5 @@ VM: Es una maquina dentro de nuestra máquina, es ultra pesado.
 6. docker history -H apache-centos
 7. docker ps -a
 8. docker rm -fv name
+9. docker ps
+10. docker run -d apache-centos
