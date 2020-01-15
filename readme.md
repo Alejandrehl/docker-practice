@@ -52,3 +52,5 @@ VM: Es una maquina dentro de nuestra máquina, es ultra pesado.
 4. docker images || grep name
 5. docker build --tag apache-centos . // apache-centos es el campo (name) que se debe reemplazar
 6. docker history -H apache-centos
+7. docker ps -a
+8. docker rm -fv name
